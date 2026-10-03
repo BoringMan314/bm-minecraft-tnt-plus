@@ -1,0 +1,19 @@
+name: bm-minecraft-tnt-plus
+version: "26.3_0.0.1"
+main: bm.minecraft.tnt.plus.BmMinecraftTntPlusPlugin
+api-version: '26.3'
+description: "TNT PLUS。"
+authors:
+  - "[B.M] 圓周率™3.14"
+website: "http://exnormal.com:81/"
+commands:
+  bm-minecraft-tnt-plus:
+    description: 管理 bm-minecraft-tnt-plus。
+    usage: /bm-minecraft-tnt-plus [0|1|info|status|reload|set <範圍>]
+permissions:
+  bm-minecraft-tnt-plus.use:
+    description: 允許 TNT PLUS 爆炸。
+    default: true
+  bm-minecraft-tnt-plus.admin:
+    description: 允許管理 bm-minecraft-tnt-plus。
+    default: op

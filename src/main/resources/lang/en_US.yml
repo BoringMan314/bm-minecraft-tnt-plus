@@ -1,0 +1,28 @@
+language-format-version: 1
+
+console:
+  enabled: 'Version {version} enabled.'
+  disabled: 'Disabled.'
+  language-directory-failed: 'Could not create language directory: {directory}'
+  language-backup-failed: 'Could not back up {file} to {backup}; keeping the original file.'
+  language-copy-failed: 'Could not copy bundled language file: {file}'
+  language-update-failed: 'Could not update language file: {file}'
+
+messages:
+  help-header: '&6&l═ bm-minecraft-tnt-plus ═'
+  help-toggle: '&e/bm-minecraft-tnt-plus 0/1 &f- Enable or disable the feature'
+  help-reload: '&e/bm-minecraft-tnt-plus reload &f- Reload configuration'
+  help-info: '&e/bm-minecraft-tnt-plus info &f- Show plugin information'
+  help-status: '&e/bm-minecraft-tnt-plus status &f- Show enabled status'
+  help-set: '&e/bm-minecraft-tnt-plus set X &f- Set explosion radius'
+  help-footer: '&6&l═══════════════════════════════'
+  no-permission: '&a[TNT] &cError: &fYou do not have permission to use this management command.'
+  enabled: '&a[TNT] &fTNT PLUS is &eenabled.'
+  disabled: '&a[TNT] &fTNT PLUS is &edisabled.'
+  reloaded: '&a[TNT] &fConfiguration reloaded.'
+  info: '&a[TNT] &fVersion: &e{version}'
+  status: '&a[TNT] &fEnabled: &e{enabled} &f, radius: &e{radius} &f, range: &e{diameter} &fx &e{diameter} &fx &e{diameter}.'
+  radius-set: '&a[TNT] &fExplosion radius set to &e{radius} &f, range: &e{diameter} &fx &e{diameter} &fx &e{diameter}.'
+  usage-set: '&a[TNT] &fUsage &e/bm-minecraft-tnt-plus set <radius>'
+  invalid-radius: '&a[TNT] &cError: &fEnter a whole-number radius from 1 to 128.'
+  exploded: '&a[TNT] &fDestroyed &e{count} &fblocks.'

@@ -1,0 +1,28 @@
+language-format-version: 1
+
+console:
+  enabled: 'バージョン {version} を有効にしました。'
+  disabled: '無効にしました。'
+  language-directory-failed: '言語ディレクトリを作成できませんでした：{directory}'
+  language-backup-failed: '{file} を {backup} にバックアップできなかったため、元のファイルを保持します。'
+  language-copy-failed: '同梱の言語ファイルをコピーできませんでした：{file}'
+  language-update-failed: '言語ファイルを更新できませんでした：{file}'
+
+messages:
+  help-header: '&6&l═ bm-minecraft-tnt-plus ═'
+  help-toggle: '&e/bm-minecraft-tnt-plus 0/1 &f- 有効／無効を切り替え'
+  help-reload: '&e/bm-minecraft-tnt-plus reload &f- 設定を再読み込み'
+  help-info: '&e/bm-minecraft-tnt-plus info &f- プラグイン情報を表示'
+  help-status: '&e/bm-minecraft-tnt-plus status &f- 状態を表示'
+  help-set: '&e/bm-minecraft-tnt-plus set X &f- 爆発半径を設定'
+  help-footer: '&6&l═══════════════════════════════'
+  no-permission: '&a[TNT] &cエラー：&fこの管理コマンドを使用する権限がありません。'
+  enabled: '&a[TNT] &fTNT PLUS を&e有効 &fにしました。'
+  disabled: '&a[TNT] &fTNT PLUS を&e無効 &fにしました。'
+  reloaded: '&a[TNT] &f設定を再読み込みしました。'
+  info: '&a[TNT] &fバージョン：&e{version}'
+  status: '&a[TNT] &f有効：&e{enabled} &f、半径：&e{radius} &f、範囲：&e{diameter} &fx &e{diameter} &fx &e{diameter}。'
+  radius-set: '&a[TNT] &f爆発半径を &e{radius} &f、範囲を &e{diameter} &fx &e{diameter} &fx &e{diameter} &fに設定しました。'
+  usage-set: '&a[TNT] &f使い方 &e/bm-minecraft-tnt-plus set <半径>'
+  invalid-radius: '&a[TNT] &cエラー：&f1 から 128 までの整数半径を入力してください。'
+  exploded: '&a[TNT] &e{count} &f個のブロックを破壊しました。'

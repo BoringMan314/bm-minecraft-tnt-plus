@@ -1,0 +1,28 @@
+language-format-version: 1
+
+console:
+  enabled: '版本 {version} 已啟用。'
+  disabled: '已停用。'
+  language-directory-failed: '無法建立語系目錄：{directory}'
+  language-backup-failed: '無法將 {file} 備份至 {backup}，將保留原始檔案。'
+  language-copy-failed: '無法複製內建語系檔案：{file}'
+  language-update-failed: '無法更新語系檔案：{file}'
+
+messages:
+  help-header: '&6&l═ bm-minecraft-tnt-plus ═'
+  help-toggle: '&e/bm-minecraft-tnt-plus 0/1 &f- 開關指令'
+  help-reload: '&e/bm-minecraft-tnt-plus reload &f- 重新載入設定'
+  help-info: '&e/bm-minecraft-tnt-plus info &f- 顯示插件資訊'
+  help-status: '&e/bm-minecraft-tnt-plus status &f- 查看開關、狀態'
+  help-set: '&e/bm-minecraft-tnt-plus set X &f- 設定爆炸半徑'
+  help-footer: '&6&l═══════════════════════════════'
+  no-permission: '&a[TNT] &c錯誤：&f你沒有權限使用此管理指令。'
+  enabled: '&a[TNT] &fTNT PLUS 已&e開啟。'
+  disabled: '&a[TNT] &fTNT PLUS 已&e關閉。'
+  reloaded: '&a[TNT] &f設定已重新載入。'
+  info: '&a[TNT] &f版本：&e{version}'
+  status: '&a[TNT] &f啟用：&e{enabled} &f，爆炸半徑：&e{radius} &f，範圍：&e{diameter} &fx &e{diameter} &fx &e{diameter}。'
+  radius-set: '&a[TNT] &f爆炸半徑已設為 &e{radius} &f，範圍：&e{diameter} &fx &e{diameter} &fx &e{diameter}。'
+  usage-set: '&a[TNT] &f用法 &e/bm-minecraft-tnt-plus set <半徑>'
+  invalid-radius: '&a[TNT] &c錯誤：&f請輸入 1 至 128 的整數半徑。'
+  exploded: '&a[TNT] &f已爆炸 &e{count} &f格。'
